@@ -3,7 +3,7 @@
 A domain-specific conversational AI chatbot specializing in **cooking, baking, and culinary guidance**. Powered by the **Groq API** (`llama-3.3-70b-versatile`) and deployed as an interactive web application using **Streamlit**.
 
 ## 🔗 Live Demo
-**Public App Link:** [Insert your Streamlit URL here after deploying, e.g., `https://streamlit.app`]
+**Public App Link:** [https://chef-mateo-cooking-assistant-vyphbhdf5ycsgrhmbafyrc.streamlit.app/]
 
 ---
 
