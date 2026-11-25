@@ -46,7 +46,7 @@ if user_input := st.chat_input("Ask a cooking question..."):
                 reasoning_effort="low",
                 timeout=10.0
             )
-            reply = res.choices.message.content
+            reply = res.choices[0].message.content
             st.markdown(reply)
             st.session_state.messages.append({"role": "assistant", "content": reply})
         except Exception as e:
