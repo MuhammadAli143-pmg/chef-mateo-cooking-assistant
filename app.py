@@ -39,10 +39,11 @@ if user_input := st.chat_input("Ask a cooking question..."):
     with st.chat_message("assistant"):
         try:
             res = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=st.session_state.messages,
                 temperature=0.6,
-                max_tokens=600,
+                max_tokens=800,
+                reasoning_effort="low",
                 timeout=10.0
             )
             reply = res.choices.message.content
